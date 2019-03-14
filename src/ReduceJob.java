@@ -7,8 +7,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 /**
  * 
- * @author sbartkowski
- * Classical wordcount reduce job
+ * @author sbartkowski Classical wordcount reduce job
  */
 
 public class ReduceJob extends Reducer<Text, IntWritable, Text, IntWritable> {

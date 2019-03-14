@@ -7,8 +7,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 /**
  * 
- * @author sbartkowski
- * Classical wordcount MapJob
+ * @author sbartkowski Classical wordcount MapJob
  */
 
 public class MapJob extends Mapper<LongWritable, Text, Text, IntWritable> {
