@@ -2,8 +2,11 @@
 
 Classic "wordcount" M/R Eclipse project to test connectivity.
 
-# Eclipse project
+# Intelij project
 Import project from GitHib. To execute, add Hadoop direcory *conf* to Java Class Path.
+
+# Create
+> mvn clean package<br>
 
 # Standalone, submit using yarn command
 https://github.com/stanislawbartkowski/SampleMapReduce/blob/master/run.sh
